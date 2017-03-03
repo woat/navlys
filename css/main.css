@@ -1,5 +1,5 @@
 html {
-  background-color: #2c3544;
+  background-color: #66ABEF;
 }
 
 a {
@@ -23,6 +23,9 @@ strong {
   color: inherit;
 }
 
+.smallCaps {
+  font-variant: small-caps;
+}
 
 .flex-container {
   height: 100vh;
