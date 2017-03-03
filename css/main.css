@@ -40,19 +40,19 @@ strong {
 
 .header {
   font-family: 'Source Sans Pro';
-  font-size: 5em;
-  color: #FFFFFF;
+  font-size: 3em;
+  color: rgb(244,249,254);
 }
 
 .subheader {
   font-family: 'Source Sans Pro';
   font-weight: 200;
   font-size: 2em;
-  color: #4285F4;
+  color: rgb(244,249,254);
 }
 
 .color-one {
-  background-color: #2c3544;
+  background-color: #66ABEF;
 }
 
 .color-two {
