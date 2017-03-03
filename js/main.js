@@ -12,15 +12,10 @@ $(function() {
         $(".sec1ColRight").addClass("fadeInRightBig");
       }
       if(i==2) {
-        $(".money").addClass("fadeInDownBig");
-        $(".moneyTitle").addClass("zoomIn");
-        $(".moneySub").addClass("fadeInUpBig");
-        $(".bar").addClass("fadeInDownBig");
-        $(".barTitle").addClass("zoomIn");
-        $(".barSub").addClass("fadeInUpBig");
-        $(".click").addClass("fadeInDownBig");
-        $(".clickTitle").addClass("zoomIn");
-        $(".clickSub").addClass("fadeInUpBig");
+        $(".box").addClass("zoomIn");
+        $(".img").addClass("fadeInDownBig");
+        $(".is-3").addClass("zoomIn");
+        $(".is-5").addClass("fadeInUpBig");
       }
       if(i===3) {
         $(".sec3ColLeft").addClass("fadeInLeftBig");
@@ -34,15 +29,10 @@ $(function() {
         $(".sec1ColRight").removeClass("fadeInRightBig");
       }
       if(i!==2) {
-        $(".money").removeClass("fadeInDownBig");
-        $(".moneyTitle").removeClass("zoomIn");
-        $(".moneySub").removeClass("fadeInUpBig");
-        $(".bar").removeClass("fadeInDownBig");
-        $(".barTitle").removeClass("zoomIn");
-        $(".barSub").removeClass("fadeInUpBig");
-        $(".click").removeClass("fadeInDownBig");
-        $(".clickTitle").removeClass("zoomIn");
-        $(".clickSub").removeClass("fadeInUpBig");
+        $(".box").removeClass("zoomIn");
+        $(".img").removeClass("fadeInDownBig");
+        $(".is-3").removeClass("zoomIn");
+        $(".is-5").removeClass("fadeInUpBig");
       }
       if(i!==3) {
         $(".sec3ColLeft").removeClass("fadeInLeftBig");

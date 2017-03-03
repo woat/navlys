@@ -15,16 +15,17 @@ strong {
   color: inherit;
 }
 
+.box {
+  box-shadow: 0px 0px 0px;
+  background-color: rgb(226,239,252);
+}
+
 .invert {
   filter: invert(1);
 }
 
 .subtitle strong {
   color: inherit;
-}
-
-.smallCaps {
-  font-variant: small-caps;
 }
 
 .flex-container {
@@ -67,7 +68,7 @@ strong {
 }
 
 .font-color-two {
-  color: #FFFFFF;
+  color: #DFE0D1;
 }
 
 .fadeIn {
