@@ -61,6 +61,11 @@ strong {
   background-size: cover;
 }
 
+.center-align {
+  display: flex;
+  align-items: center;
+}
+
 .color-one {
   background-color: #66ABEF;
 }

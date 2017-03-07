@@ -3,6 +3,8 @@ $(function() {
     $.scrollify.disable();
     $(".title").addClass("has-text-centered");
     $(".subtitle").addClass("has-text-centered");
+    $(".first-slide-title").removeClass("center-align");
+    $(".first-slide-title").addClass("has-text-centered");
   } else {
   	$.scrollify({
   		section : ".hero",
