@@ -10,7 +10,9 @@ $(function() {
       before: function(i, panels) {
         var ref = panels[i].attr("data-section-name");
         if(i===0) {
-          $(".sec0").addClass("fadeIn")
+          $(".sec0").addClass("fadeIn");
+          $(".header").addClass("fadeInRightBig");
+          $(".subheader").addClass("fadeInUpBig");
         }
         if(i===1) {
           $(".sec1ColLeft").addClass("fadeInLeftBig");
@@ -27,7 +29,9 @@ $(function() {
           $(".sec3ColRight").addClass("fadeInRightBig");
         }
         if(i!==0) {
-          $(".sec0").removeClass("fadeIn")
+          $(".sec0").removeClass("fadeIn");
+          $(".header").removeClass("fadeInRightBig");
+          $(".subheader").removeClass("fadeInUpBig");
         }
         if(i!==1) {
           $(".sec1ColLeft").removeClass("fadeInLeftBig");

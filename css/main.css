@@ -44,7 +44,7 @@ strong {
 
 .header {
   font-family: 'Source Sans Pro';
-  font-size: 3em;
+  font-size: 5em;
   color: rgb(244,249,254);
 }
 
@@ -53,6 +53,12 @@ strong {
   font-weight: 200;
   font-size: 2em;
   color: rgb(244,249,254);
+}
+
+.first-slide-bg {
+  background-image: linear-gradient( rgba(102,171,239,.7), rgba(102,171,239,.99) ), url("../img/bg.jpg");
+  background-position: top;
+  background-size: cover;
 }
 
 .color-one {
@@ -71,8 +77,27 @@ strong {
   color: #DFE0D1;
 }
 
+.green-strong {
+  color: #75C2AF;
+}
+
+.grey-strong {
+  color: #4E5D73;
+}
+
+/* Animation.css */
+
 .fadeIn {
   animation-duration: 5s;
+}
+
+.fadeInRightBig.title-animation{
+  animation-duration: 2s;
+}
+
+.fadeInUpBig.title-animation {
+  animation-delay: 1s;
+  animation-duration: 2s;
 }
 
 @media only screen
