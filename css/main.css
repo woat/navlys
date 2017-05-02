@@ -1,93 +1,199 @@
 html {
-  background-color: #66ABEF;
+	background-color: #36393B;
 }
 
 a {
-  color: #4285F4;
+	color: #EEE6AB;
+	transition: 0.7s;
+}
+
+a.footer-link {
+	color: #696758;
+	font-weight: 700;
+}
+
+a.footer-link:hover {
+	text-decoration: underline;
+}
+
+a.nav-hover:hover {
+	color: #bfb894;
+}
+
+a:hover {
+	color: #4285F4;
+}
+
+img + img {
+	padding-top: 20px;
 }
 
 p {
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 strong {
-  color: inherit;
+	color: inherit;
 }
 
-.box {
-  box-shadow: 0px 0px 0px;
-  background-color: rgb(226,239,252);
+.banner-text {
+	font-family: 'Muli';
+	font-weight: 700 !important;
+	font-size: 2em;
+	color: #EEE6AB;
+}
+
+.banner-text.choice {
+	font-size: 3.5em;
+}
+
+.banner-text.button {
+	font-variant: small-caps;
+}
+
+.banner-subtext {
+	font-family: 'Muli';
+	font-style: italic;
+	font-weight: 400 !important;
+	font-size: 2em;
+	color: #C5BC8E;
+}
+
+.nav-logo-text {
+	font-family: 'Muli';
+	font-style: italic;
+	font-weight: 700;
+	font-size: 3em;
+	color: #fff;
+}
+
+.nav-logo {
+	max-width: 50px;
+	height: auto;
+}
+
+.nav-right-text {
+	font-family: 'Muli';
+	font-weight: 400;
+}
+
+.no-pad-top {
+	padding-top: 0px !important;
+}
+
+.box:hover{
+	background-size: 1200%;
+}
+
+.box-text {
+	font-family: 'Roboto';
+	font-size: 1.5em;
+	color: #b3b8bc;
+}
+
+.footer-title {
+	font-family: 'Muli';
+	font-weight: 700;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+
+.footer-text {
+	font-family: Roboto;
+	font-weight: 400;
 }
 
 .invert {
-  filter: invert(1);
+	filter: invert(1);
 }
 
 .subtitle strong {
-  color: inherit;
-}
-
-.flex-container {
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.header {
-  font-family: 'Source Sans Pro';
-  font-size: 5em;
-  color: rgb(244,249,254);
-}
-
-.subheader {
-  font-family: 'Source Sans Pro';
-  font-weight: 200;
-  font-size: 2em;
-  color: rgb(244,249,254);
+	color: inherit;
 }
 
 .first-slide-bg {
-  background-image: linear-gradient( rgba(102,171,239,.7), rgba(102,171,239,.99) ), url("../img/bg.jpg");
-  background-position: top;
-  background-size: cover;
+	background-image: linear-gradient( rgba(55,57,59,.7), rgba(55,57,59,.99) ), url("http://www.krux.com/static/img/bg-hero-customer-type-link.png");
+	background-size: cover;
+	background-color: #36393B;
 }
 
-.center-align {
-  display: flex;
-  align-items: center;
+.buy-bg {
+	background-image: linear-gradient( rgba(55,57,59,.7), rgba(55,57,59,.99) ), url("http://myienroll.com/wp-content/uploads/2015/12/bg-hero-grid.png");
+	background-size: cover;
+	background-position: bottom;
 }
 
 .color-one {
-  background-color: #66ABEF;
+	background-color: #66ABEF;
 }
 
 .color-two {
-  background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 .color-three {
-  background-color: #4285F4;
+	background-color: #4285F4;
 }
 
 .font-color-two {
-  color: #DFE0D1;
+	color: #DFE0D1;
 }
 
 .grn-strong {
-  color: #75C2AF;
+	color: #75C2AF;
 }
 
 .gry-strong {
-  color: #4E5D73;
+	color: #4E5D73;
+}
+
+.is-gry {
+	background-color: #36393B;
+}
+
+.is-tan {
+	background-color: #EEE6AB !important;
+}
+
+.is-tan-dark {
+	background-color: #bfb894;
+}
+
+.is-tan-darker {
+	background-color: #696758;
+}
+
+/* Bulma.css */
+
+a.nav-item {
+	color: #fff;
+}
+
+.box {
+	background-image: linear-gradient( rgba(69,72,75,1), rgba(69,72,75,.8) ), url("http://www.krux.com/static/img/bg-hero-customer-type-publisher.png");
+	box-shadow: 0px 0px 0px;
+	background-color: #45484B;
+	background-size: 1000%;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	transition: 0.5s !important;
+}
+
+.nav-item img {
+	max-height: 3.5em !important;
+}
+
+.button.is-dark {
+	background-color: #bfb894;
+	border-color: transparent;
+	color: #363636;
+}
+
+.button.is-dark:hover{
+	background-color: #45484B;
+	border-color: transparent;
+	color: #b3b8bc;
 }
 
 /* Animation.css */
@@ -105,9 +211,16 @@ strong {
   animation-duration: 2s;
 }
 
+/* FontAwesome */
+
+.fa-chevron-right {
+	padding-top: 5px;
+}
+
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 }
 
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Muli', sans-serif;
