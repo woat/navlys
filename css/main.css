@@ -114,13 +114,15 @@ strong {
 }
 
 .first-slide-bg {
-	background-image: linear-gradient( rgba(55,57,59,.7), rgba(55,57,59,.99) ), url("http://www.krux.com/static/img/bg-hero-customer-type-link.png");
-	background-size: cover;
+	background-image: linear-gradient( rgba(55,57,59,.7), rgba(55,57,59,.99) ), url("../img/main-grid.png");
 	background-color: #36393B;
+	background-repeat: no-repeat;
+	background-size: 150% 50%;
+	background-position: bottom right;
 }
 
 .buy-bg {
-	background-image: linear-gradient( rgba(55,57,59,.7), rgba(55,57,59,.99) ), url("http://myienroll.com/wp-content/uploads/2015/12/bg-hero-grid.png");
+	background-image: linear-gradient( rgba(55,57,59,.1), rgba(55,57,59,.99) ), url("../img/low-grid.png");
 	background-size: cover;
 	background-position: bottom;
 }
@@ -172,7 +174,7 @@ a.nav-item {
 }
 
 .box {
-	background-image: linear-gradient( rgba(69,72,75,1), rgba(69,72,75,.8) ), url("http://www.krux.com/static/img/bg-hero-customer-type-publisher.png");
+	background-image: linear-gradient( rgba(69,72,75,1), rgba(69,72,75,.8) ), url("../img/box-grid.png");
 	box-shadow: 0px 0px 0px;
 	background-color: #45484B;
 	background-size: 1000%;
