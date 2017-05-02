@@ -199,6 +199,7 @@ a.nav-item {
 /* Animation.css */
 
 .fadeIn {
+	animation-delay: 1s;
   animation-duration: 5s;
 }
 
